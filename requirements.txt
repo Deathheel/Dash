@@ -1,4 +1,5 @@
 sqlalchemy
 plotly.express
 mysql.connector
-mysqldb
+mysql-connector-python
+pymysql
