@@ -8,7 +8,8 @@ st.set_page_config(page_title="Dashboard", page_icon=":bar_chart:", layout="wide
 
 
 # Connect to the MySQL database (replace placeholders with your credentials)
-engine = create_engine('mysql://sql12678617:FtL1h1vtpZ@sql12.freesqldatabase.com/sql12678617')
+engine = create_engine('mysql+mysqlconnector://sql12678617:FtL1h1vtpZ@sql12.freesqldatabase.com/sql12678617')
+
 
 # Cached function for efficient data retrieval
 def update_data():
