@@ -3,4 +3,4 @@ plotly.express
 mysql.connector
 mysql-connector-python
 pymysql
-mysqlclient==2.2.1
+
